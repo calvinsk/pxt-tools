@@ -8,41 +8,52 @@
 \pard\pardeftab720\sl420\partightenfactor0
 
 \f0\fs30 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 # tools
+\outl0\strokewidth0 \strokec2 \{
 \f1 \AppleTypeServices\AppleTypeServicesF65539 \
-\
 
-\f2 \AppleTypeServices \'b3\'6f\'ac\'4f\'b1\'4d\'ac\'b0\'b4\'fa\'b8\'d5\'a5\'ce\'aa\'ba
+\f0 \AppleTypeServices     "name": "tools",
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices     "version": "0.0.1",
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices     "description": "
+\f2 \'b3\'6f\'ac\'4f\'b1\'4d\'ac\'b0\'b4\'fa\'b8\'d5\'a5\'ce\'aa\'ba
 \f0 micro:bit
 \f2 \'bf\'6e\'a4\'ec
-\f1 \AppleTypeServices\AppleTypeServicesF65539 \
-\
-
-\f0 \AppleTypeServices ## License
-\f1 \AppleTypeServices\AppleTypeServicesF65539 \
-\
-
-\f0 \AppleTypeServices MIT
-\f1 \AppleTypeServices\AppleTypeServicesF65539 \
-\
-
-\f0 \AppleTypeServices ## Supported targets
-\f1 \AppleTypeServices\AppleTypeServicesF65539 \
-\
-
-\f0 \AppleTypeServices * for PXT/microbit
+\f0 ",
 \f1 \AppleTypeServices\AppleTypeServicesF65539 \
 
-\f0 \AppleTypeServices (The metadata above is needed for package search.)
-\f1 \AppleTypeServices\AppleTypeServicesF65539 \
-\
-
-\f0 \AppleTypeServices ```package
+\f0 \AppleTypeServices     "license": "MIT",
 \f1 \AppleTypeServices\AppleTypeServicesF65539 \
 
-\f0 \AppleTypeServices tools=github:calvinsk/pxt-tools
+\f0 \AppleTypeServices     "dependencies": \{
 \f1 \AppleTypeServices\AppleTypeServicesF65539 \
 
-\f0 \AppleTypeServices ```
+\f0 \AppleTypeServices         "core": "*"
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices     \},
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices     "files": [
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices         "README.md",
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices         "main.ts",
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices         "_locales/zh/tools-strings.json"
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices     ],
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices     "public": true
+\f1 \AppleTypeServices\AppleTypeServicesF65539 \
+
+\f0 \AppleTypeServices \}
 \f1 \AppleTypeServices\AppleTypeServicesF65539 \
 }
